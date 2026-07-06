@@ -1,0 +1,15 @@
+services: 
+- type: web
+name: exercicio3
+runtime: node 
+plan: free
+buildCommand: "npm install"
+startCommand: "npm start"
+autoDeploy: true
+envVars:
+- key: NODE_ENV
+  value: "production"
+- key: "MONGODB_URI"
+  value: "${MONGODB_URI}"
+  sync: false
+ 
