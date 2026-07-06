@@ -1,0 +1,27 @@
+{
+  "name": "curso-lions-dev",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/aldericristina/curso_Lions_dev_manha#readme",
+  "bugs": {
+    "url": "https://github.com/aldericristina/curso_Lions_dev_manha/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldericristina/curso_Lions_dev_manha.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.3"
+  },
+  "devDependencies": {}
+}
